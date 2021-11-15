@@ -106,7 +106,7 @@ footer{
 .form .form-container a:hover{
     text-decoration: underline;
 }
-.form-container .btn-new {
+.form .form-container .btn-new {
     background-color: #42b72a;
     border: none;
     border-radius: 6px;
