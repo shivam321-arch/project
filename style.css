@@ -80,13 +80,14 @@ footer{
 .form .form-container input:focus{
     border-color: #1877f2;
     box-shadow: 0 0 0 2px #e7f3ff;
+/*     (2 px in box shadow is spread radius) and focus is use so that when you click on email it shows blue color  */
 }
-.form .form-container .btn-login a{ 
-    background-color: #385898;
+.form .form-container .btn-login { 
+    background-color: #1877f2;
     border: none;
-    border-radius: 0px;
+    border-radius: 6px;
     font-size: 20px;
-    padding: 10px 10px 10px;
+    padding: 0px 6px;
     color: white;
     font-weight: 700;
     margin-bottom: 1px;
@@ -96,31 +97,28 @@ footer{
 }
 .form .form-container a{ 
     display: block;
-    color: #385898;
-    font-size: 12px;
+    color: #1877f2;
+    font-size: 14px;
     text-decoration: none;
     padding: 10px 10px 15px;
+    border-bottom: 1px solid black;
 }
 .form .form-container a:hover{
     text-decoration: underline;
 }
-.form-container .btn-new a{
+.form-container .btn-new {
     background-color: #42b72a;
     border: none;
-    border-radius: 1px;
-    font-size: 15px;
+    border-radius: 6px;
+    font-size: 18px;
     line-height: 30px;
     padding: 0 16px;
     color: #ffffff;
     font-weight: 700;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-.form .form-container .btn-new a:hover{
-    text-decoration: underline;
+    margin-top: 20px;
 }
 .form p{
-    text-decoration: none;
+    font-size: 14px;;
 }
 .form p a{
     text-decoration: none;
