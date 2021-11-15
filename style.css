@@ -137,23 +137,16 @@ footer ol{
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+/*     (to remove numeber after generating from horizontal display) */
     padding: 10px 0;
 }
 footer ol:first-child{
     border-bottom: 1px solid #dddfe2;
 }
-footer ol:first-child li:last-child button{
-    background-color: #f5f6f7;
-    border: 1px solid #ccd0d5;
-    outline: none;
-    color: #4b4f56;
-    padding: 0 8px;
-    font-weight: 700;
-    font-size: 16px;
-}
 footer ol li{
     padding-right: 15px;
     font-size: 12px;
+    color: #385898;
 }
 footer ol li a{
     text-decoration: none;
